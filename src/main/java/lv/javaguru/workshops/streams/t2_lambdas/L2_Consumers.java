@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.function.Consumer;
 
-public class L1_Consumers {
+public class L2_Consumers {
 
     public static void main(String[] args) {
         //todo : replace printDate with lambda

@@ -2,7 +2,7 @@ package lv.javaguru.workshops.streams.t2_lambdas;
 
 import java.util.function.BiFunction;
 
-public class L3_BiFunctions {
+public class L4_BiFunctions {
 
 
     public static void main(String[] args) {

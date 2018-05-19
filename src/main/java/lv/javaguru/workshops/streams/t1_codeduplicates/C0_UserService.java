@@ -21,7 +21,7 @@ public class C0_UserService {
         System.out.println(byPrefix);
 
         System.out.println("----- users by suffix n ");
-        List<User> bySuffix = findByNicknameSufix("n"); 
+        List<User> bySuffix = findByNicknameSuffix("n");
         System.out.println(bySuffix);
 
         System.out.println("----- users created during last month");
@@ -39,7 +39,7 @@ public class C0_UserService {
         return users;
     }
 
-    static List<User> findByNicknameSufix(String suffix){
+    static List<User> findByNicknameSuffix(String suffix){
         List<User> users = new ArrayList<>();
         for (User user : userRepository.getAll()) {
             if (user.getNickname().endsWith(suffix)) {

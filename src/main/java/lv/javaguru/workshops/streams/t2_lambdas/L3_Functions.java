@@ -11,7 +11,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.Function;
 
-public class L2_Functions {
+public class L3_Functions {
 
     private static UserRepository userRepository = new UserRepository();
 
